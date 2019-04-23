@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "315950913307",
+    "firebase_url": "https://croupierchallenge.firebaseio.com",
+    "project_id": "croupierchallenge",
+    "storage_bucket": "croupierchallenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315950913307:android:7260e9810f17f8ca",
+        "android_client_info": {
+          "package_name": "com.fastiel.croupierchallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315950913307-vrgkupvebo905065sldm13ultms8ed2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp-IAf-dBkgMYgPV-8NwJJ_ey3ptb4RUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

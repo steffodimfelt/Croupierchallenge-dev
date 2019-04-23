@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Croupierchallenge</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="nickname">Nickname</string>
+    <string name="country">Country</string>
+    <string name="log_in">log in</string>
+    <string name="create_user">Create user</string>
+    <string name="password">Password</string>
+</resources>

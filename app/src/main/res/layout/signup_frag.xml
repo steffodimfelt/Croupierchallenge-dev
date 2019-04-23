@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/sign_up"
+              android:textAlignment="center"
+              android:textSize="24sp"
+              android:textStyle="bold"
+              android:id="@+id/textView"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="8dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginEnd="8dp"
+              android:layout_marginTop="8dp"
+              app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:id="@+id/emailField"
+              android:hint="@string/email"
+              android:inputType="textEmailAddress"
+              android:maxLines="1"
+              android:padding="8dp"
+              android:background="@drawable/rounded_shape"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="8dp"
+              android:nextFocusForward="@id/signupPasswordField"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginEnd="8dp"
+              android:layout_marginTop="164dp"
+              android:focusedByDefault="true"
+              app:layout_constraintTop_toBottomOf="@+id/textView"
+              app:layout_constraintHorizontal_bias="1.0"/>
+
+    <EditText android:layout_width="match_parent"
+              android:maxLines="1"
+              android:layout_height="40dp"
+              android:padding="8dp"
+              android:id="@+id/signupPasswordField"
+              android:hint="@string/password"
+              android:inputType="textPassword"
+              android:background="@drawable/rounded_shape"
+              android:layout_marginTop="8dp"
+              app:layout_constraintTop_toBottomOf="@id/emailField"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="8dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:nextFocusForward="@id/repeatPasswordField"
+              android:layout_marginEnd="8dp"/>
+
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:padding="8dp"
+              android:maxLines="1"
+              android:inputType="textPassword"
+              android:id="@+id/repeatPasswordField"
+              android:hint="@string/repeat_password"
+              android:background="@drawable/rounded_shape"
+              android:layout_marginTop="8dp"
+              app:layout_constraintTop_toBottomOf="@id/signupPasswordField"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="8dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginEnd="8dp"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:padding="8dp"
+              android:maxLines="1"
+              android:id="@+id/nickNameEditText"
+              android:hint="@string/nickname"
+              android:inputType="text"
+              android:background="@drawable/rounded_shape"
+              android:layout_marginTop="8dp"
+              app:layout_constraintTop_toBottomOf="@id/repeatPasswordField"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="8dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginEnd="8dp"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:padding="8dp"
+              android:maxLines="1"
+              android:inputType="text"
+              android:id="@+id/countryEditText"
+              android:hint="@string/country"
+              android:background="@drawable/rounded_shape"
+              android:layout_marginTop="8dp"
+              app:layout_constraintTop_toBottomOf="@id/nickNameEditText"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layout_marginStart="8dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginEnd="8dp"/>
+
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signUpBtn"
+            android:text="@string/sign_up"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+    />
+
+
+</android.support.constraint.ConstraintLayout>
